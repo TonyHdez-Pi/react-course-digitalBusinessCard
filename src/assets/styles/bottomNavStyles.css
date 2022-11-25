@@ -1,7 +1,9 @@
 .mainContainer {
 	background-color: #161619;
 	padding: 1rem;
-	width: 100%;
+	display: flex;
+	justify-content: center;
+	border-radius: 0px 0px 10px 10px;
 }
 .icon {
 	margin: 0 0.3rem;

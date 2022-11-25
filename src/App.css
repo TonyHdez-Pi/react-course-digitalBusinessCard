@@ -4,13 +4,75 @@ body {
 
 #root {
 	min-width: 780px;
-	margin: 0 auto;
-	text-align: center;
 }
 
 .App {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 	background-image: url("./assets/react.svg");
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-color: #23252c;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.cardContainer {
+	background-color: #1a1b21;
+	width: 30%;
+	max-width: 317px;
+	border-radius: 10px;
+	margin: 20px 0;
+}
+
+.imageContainer > img {
+	width: 100%;
+	border-radius: 10px 0px 0px 0px;
+}
+
+.infoContainer {
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 35px;
+}
+
+.headings {
+	text-align: center;
+}
+
+.headings h3 {
+	color: #f3bf99;
+	font-weight: 400;
+	font-size: 0.8rem;
+	position: relative;
+	top: -13px;
+	margin: 0;
+}
+
+.buttonContainer {
+	width: 100%;
+	display: flex;
+	margin: 0;
+}
+
+.textCard {
+	margin: 1rem 0;
+}
+
+.textCard h2 {
+	font-size: 1.3rem;
+	margin: 0;
+}
+
+.textCard p {
+	margin: 0;
+	padding: 10px 5px;
+	font-size: 0.8rem;
+	letter-spacing: 1px;
 }
