@@ -1,0 +1,16 @@
+body {
+	margin: 0;
+}
+
+#root {
+	min-width: 780px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.App {
+	background-image: url("./assets/react.svg");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: #23252c;
+}
